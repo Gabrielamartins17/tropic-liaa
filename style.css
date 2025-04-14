@@ -1,201 +1,200 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
-: raiz {
+:root {
     --laranja-claro: #FF862A;
     --alto-contraste-fundo: #000000;
     --alto-contraste-texto: #ffffff;
     --alto-contraste-link: #ffd700;
 }
 
-corpo {
-    tamanho da fonte: 1rem;
-    família de fontes: 'Montserrat';
+body {
+    font-size: 1rem;
+    font-family: 'Montserrat';
 }
 
-cabeçalho {
-    cor de fundo: #ffffff;
-}
-
-
-secção {
-    estofamento-fundo: 5rem;
+header {
+    background-color: #ffffff;
 }
 
 
-. link de navegação {
-    cor: #CB6D43;
-    peso da fonte: 600;
+section {
+    padding-bottom: 5rem;
 }
 
-. inicio-fundo {
+
+.nav-link {
+    color: #CB6D43;
+    font-weight: 600;
+}
+
+.inicio-fundo {
     /* aula 3 */
-    imagem de fundo: url ('img / 4965007.jpg');
+    background-image: url('img/4965007.jpg');
     /* Substitua pelo caminho da sua imagem */
-    tamanho do plano de fundo: capa;
-    posição de fundo: direita;
-    raio da borda: 80px;
-    Largura: 100%;
-    altura: 606px;
-    preenchimento: 40px;
-    margem: 0 automático;
+    background-size: cover;
+    background-position: right;
+    border-radius: 80px;
+    width: 100%;
+    height: 606px;
+    padding: 40px;
+    margin: 0 auto;
 }
 
 /* posicionamento para a imagem à direita */
-. img-inicio {
-    Posição: Absoluto;
-    Direita: 0;
-    Topo: 18rem;
-    Largura: 45rem;
-    Altura: Auto;
+.img-inicio {
+    position: absolute;
+    right: 0;
+    top: 18rem;
+    width: 45rem;
+    height: auto;
 }
 
 
-. esquerda-conteudo {
-    Display: Flex;
-    flex-direção: coluna;
-    alinhar itens: flex-start;
-    Folga: 1rem;
+.esquerda-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
 }
 
 
-. botao-inicio {
-    cor de fundo: var(--laranja-claro);
-    raio da borda: 30px;
-    borda: nenhuma;
-    Largura: 14em;
-    Altura: 3em;
-    align-content: centro;
+.botao-inicio {
+    background-color: var(--laranja-claro);
+    border-radius: 30px;
+    border: none;
+    width: 14em;
+    height: 3em;
+    align-content: center;
 
 }
 
-. exibição-4 {
-    texto-sombra: -5px 5px var(--laranja-claro);
+.display-4 {
+    text-shadow: -5px 5px var(--laranja-claro);
 }
 
 
-#Tropicália {
-    posição: relativa;
-    Topo de preenchimento: 5rem;
-    Margem superior: 3rem;
-    margem-fundo: 3rem;
-    plano de fundo: url('img/flor.png') canto superior direito sem repetição,
-        url('img/flor-esquerda.png') canto inferior esquerdo sem repetição;
-    tamanho do plano de fundo: 180px 180px;
+#tropicalia {
+    position: relative;
+    padding-top: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background: url('img/flor.png') top right no-repeat,
+        url('img/flor-esquerda.png') bottom left no-repeat;
+    background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
 
-#Tropicália . recipiente {
-    Display: Flex;
-    alinhar itens: centro;
-    justificar-conteúdo: centro;
-    posição: relativa;
-    Índice Z: 1;
+#tropicalia .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
     /* Garante que o conteúdo fica acima das imagens do background */
 }
 
 
 h2 {
-    família de fontes: 'Limão', serifa;
-    tamanho da fonte: 2,5em;
-    estilo de fonte: normal;
-    Cor: var(--laranja-claro);
+    font-family: 'Lemon', serif;
+    font-size: 2.5em;
+    font-style: normal;
+    color: var(--laranja-claro);
 }
 
-#Galeria {
-    cor de fundo: #FAF4F4;
+#galeria {
+    background-color: #FAF4F4;
 
 }
 
-. fundo-galeria {
-    plano de fundo: url('img/flor-bottom-direita.png') canto inferior direito sem repetição;
-    tamanho do plano de fundo: 180px 180px;
+.fundo-galeria {
+    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+    background-size: 180px 180px;
 }
-
 
 #contato {
-    imagem de fundo: url ('img / 4965007.jpg');
-    tamanho do plano de fundo: capa;
-    preenchimento: 4rem 0;
+    background-image: url('img/4965007.jpg');
+    background-size: cover;
+    padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
 
 }
 
-. Formulário {
-    cor de fundo: #ffffff;
-    preenchimento: 2rem;
+.formulario {
+    background-color: #ffffff;
+    padding: 2rem;
     /* Espaçamento interno dentro do formulário */
-    raio da borda: 10px;
+    border-radius: 10px;
     /* Borda arredondada para o formulário */
-    sombra da caixa: 0 0 10px rgba (0, 0, 0, 0,1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     /* Sombra suave para destacar o formulário */
-    peso da fonte: negrito;
+    font-weight: bold;
 }
 
-. botão do formulário  {
-    cor de fundo: #CB6D43;
-    borda: nenhuma;
-    peso da fonte: negrito;
+.formulario button {
+    background-color: #CB6D43;
+    border: none;
+    font-weight: bold;
 }
 
-. controle de forma {
-    cor de fundo: #F1EDEF;
+.form-control {
+    background-color: #F1EDEF;
 }
-. menu-acessibilidade{
-    Posição: Fixo;
-    topo: 2rem;
-    Direita: 20px;
-    Índice Z: 1000;
-}
-
-. rotação-botao{
-    Transformar: Girar (-90graus);
-    origem da transformação: centro direito;
+.menu-acessibilidade{
+    position: fixed;
+    top:2rem;
+    right:20px;
+    z-index: 1000;
 }
 
-. opcoes-acessibilidade{
-    margem superior: 10px;
-    Display: Flex;
-    flex-direção: coluna;
+.rotacao-botao{
+    transform: rotate(-90deg);
+    transform-origin: right center;
 }
 
-. opcoes-acessibilidade button{
-    margem inferior: 5px;
-}
-. apresenta-lista{
-    exibição: nenhuma;
+.opcoes-acessibilidade{
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
 }
 
-. alto-contraste{
-    cor de fundo: var(--alto-contraste-fundo);
+.opcoes-acessibilidade button{
+    margin-bottom: 5px;
+}
+.apresenta-lista{
+    display: none;
+}
+
+.alto-contraste{
+    background-color: var(--alto-contraste-fundo);
     color: var(--alto-contraste-texto);
 }
 
-. cabeçalho alto-contraste,
-. rodapé alto-contraste,
-. alto-contraste . Formulário{
-    cor de fundo: var(--alto-contraste-fundo);
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario{
+    background-color: var(--alto-contraste-fundo);
     color: var(--alto-contraste-texto);
 }
 
-. alto-contraste . link de navegação{
-    cor: var(--alto-contraste-link);
+.alto-contraste .nav-link{
+    color: var(--alto-contraste-link);
 }
 
-. alto-contraste . botao-inicio,
-. alto-contraste . botão de formulário,
-. alto-contraste . btn-primário{
-    cor de fundo: var(--alto-contraste-link);
-    cor: var(--alto-contraste-fundo)
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary{
+    background-color: var(--alto-contraste-link);
+    color: var(--alto-contraste-fundo)
 }
 
-. alto-contraste #tropicália {
-    fundo: nenhum;
+.alto-contraste #tropicalia {
+    background: none;
 }
 
-. alto-contraste #galeria {
-    cor de fundo: var(--alto-contraste-fundo);
+.alto-contraste #galeria {
+    background-color: var(--alto-contraste-fundo);
 }
-. alto-contraste . fundo-galeria {
-    fundo: nenhum;
+.alto-contraste .fundo-galeria {
+    background: none;
 }
